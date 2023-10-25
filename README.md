@@ -1,5 +1,7 @@
 # OpenCore-Lenovo_ThinkPad-P53
 Working lenovo thinkpad p53 opencore sonoma configuration
+machdep.cpu.brand_string: Intel(R) Core(TM) i7-9850H CPU @ 2.60GHz
+64GB RAM
 
 Need to cleanup and manage few things but:
 
