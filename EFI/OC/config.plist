@@ -166,6 +166,14 @@
 				<key>Path</key>
 				<string>SSDT-XOSI.aml</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>SSDT-ECRW.aml</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-ECRW.aml</string>
+			</dict>
 		</array>
 		<key>Delete</key>
 		<array/>
@@ -1293,24 +1301,6 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
-				<string>VoodooSMBus.kext</string>
-				<key>Comment</key>
-				<string>VoodooSMBus.kext</string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/VoodooSMBus</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
 				<string>WhateverGreen.kext</string>
 				<key>Comment</key>
 				<string>WhateverGreen.kext</string>
@@ -1595,6 +1585,25 @@
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
 			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>YogaSMC.kext</string>
+				<key>Comment</key>
+				<string>YogaSMC.kext</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/YogaSMC</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+
 		</array>
 		<key>Block</key>
 		<array/>
@@ -1761,7 +1770,7 @@
 			<key>ScanPolicy</key>
 			<integer>0</integer>
 			<key>SecureBootModel</key>
-			<string>Disabled</string>
+			<string>Default</string>
 			<key>Vault</key>
 			<string>Optional</string>
 		</dict>
@@ -1823,7 +1832,7 @@
 				<key>boot-args</key>
 				<string>-v alcid=15 watchdog=0 TSC_sync_margin=0 igfxonln=1 -igfxblt -igfxbls igfxfw=2 igfxagdc=0 -wegnoegpu</string>
 				<key>csr-active-config</key>
-				<data>/w8AAA==</data>
+				<data>AAAAAA==</data>
 				<key>prev-lang:kbd</key>
 				<data></data>
 				<key>run-efi-updater</key>
@@ -1870,7 +1879,7 @@
 			<key>ProcessorType</key>
 			<integer>0</integer>
 			<key>ROM</key>
-			<data></data>
+			<data>mPqbwxUm</data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemMemoryStatus</key>
@@ -1893,7 +1902,7 @@
 			<key>ProcessorType</key>
 			<integer>0</integer>
 			<key>ROM</key>
-			<data>X3k2FYkH</data>
+			<data>mPqbwxUm</data>
 			<key>SpoofVendor</key>
 			<false/>
 			<key>SystemMemoryStatus</key>
@@ -1914,13 +1923,13 @@
 			<key>FirmwareFeaturesMask</key>
 			<data>f////wgAAAA=</data>
 			<key>MLB</key>
-			<string>C02052301CD00001M</string>
+			<string>CHANGEME</string>
 			<key>ROM</key>
-			<data>X3k2FYkH</data>
+			<data>mPqbwxUm</data>
 			<key>SystemSerialNumber</key>
-			<string>C02DW03EMD6T</string>
+			<string>CHANGEME</string>
 			<key>SystemUUID</key>
-			<string>C4AD0F87-ACBC-459F-BDF0-E7741C489E02</string>
+			<string>CHANGEME</string>
 		</dict>
 		<key>SMBIOS</key>
 		<dict>
@@ -1939,17 +1948,17 @@
 			<key>BoardProduct</key>
 			<string>Mac-A61BADE1FDAD7B05</string>
 			<key>BoardSerialNumber</key>
-			<string>C02052301CD00001M</string>
+			<string>CHANGEME</string>
 			<key>BoardType</key>
 			<integer>10</integer>
 			<key>BoardVersion</key>
-			<string>MacBookPro16,4</string>
+			<string>MacBookPro16,1</string>
 			<key>ChassisAssetTag</key>
 			<string>Asset Tag#</string>
 			<key>ChassisManufacturer</key>
 			<string></string>
 			<key>ChassisSerialNumber</key>
-			<string>C02DW03EMD6T</string>
+			<string>CHANGEME</string>
 			<key>ChassisType</key>
 			<integer>9</integer>
 			<key>ChassisVersion</key>
@@ -1973,9 +1982,9 @@
 			<key>SystemSKUNumber</key>
 			<string>System SKU#</string>
 			<key>SystemSerialNumber</key>
-			<string>C02DW03EMD6T</string>
+			<string>CHANGEME</string>
 			<key>SystemUUID</key>
-			<string>C4AD0F87-ACBC-459F-BDF0-E7741C489E02</string>
+			<string>CHANGEME</string>
 			<key>SystemVersion</key>
 			<string>1.0</string>
 		</dict>
